@@ -10,7 +10,6 @@ def max_in_list(lst):
 def maxi(lst):
 
 	maximum = lst[0]
-
 	for i in lst:
 		if i > maximum:
 			maximum=i
