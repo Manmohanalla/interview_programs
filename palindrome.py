@@ -21,16 +21,16 @@ def palindrome1(my_str):
 	else:
 		return False
 
-def is_palindrome(word):
+def is_palindrome(string):
 
-    letters = list(word)
     is_palindrome = True
 
-    for letter in letters:
-        if letter == letters[-1]:
-            letters.pop(-1)
+    for i in xrange((len(string)+1)/2):
+        if string[i] == string[-i-1]:
+        	print string[i],string[-(i+1)]
         else:
             is_palindrome = False
             break
 
     return is_palindrome
+print is_palindrome('radar civic radar')

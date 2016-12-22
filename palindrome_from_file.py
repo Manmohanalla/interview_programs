@@ -9,5 +9,6 @@ def palindrome_file(filename):
     	line = line.lower()
         if line == ''.join(reversed(line)):
             print line_no,line
-            
-palindrome_file('palindrome_file.txt')
+            print ''.join(reversed(line))
+#palindrome_file('palindrome_file.txt')
+
