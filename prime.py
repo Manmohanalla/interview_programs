@@ -1,3 +1,4 @@
+import math
 def isPrime(num):
 
 	if num < 2:
@@ -6,3 +7,4 @@ def isPrime(num):
 		if num % i == 0:
 			return False
 	return True
+print isPrime(17)

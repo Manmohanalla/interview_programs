@@ -34,4 +34,8 @@ def count(string):
 			output.append(cnt)
 	return output
 
-print count('commodore')
+print count('oommodore')
+
+
+
+
